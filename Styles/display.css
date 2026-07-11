@@ -3,4 +3,10 @@ article{
 
         h2{text-align: center;}
 
+        span{color: brown;
+        display: inline-block;
+        width: 250px;
+        height: 50px;
+border: 2px dotted brown;}
+
 }

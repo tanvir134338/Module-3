@@ -5,15 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Display</title>
     <link rel="Stylesheet" href="Styles/display.css">
+    <style>
+        /* .hidden {display: none;} */
+        .hidden {visibility: hidden;}
+
+        div{background-color: rgb(36, 4, 4);
+        }
+        div{color: bisque;}
+    </style>
 </head>
 <body>
      <article>
         <h2>My 1st Blog Post</h2>
-        <p>This is the content of my blog post. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad nulla, nesciunt quibusdam similique fugiat, facilis explicabo dolor officiis reiciendis vero perspiciatis maxime dicta. Optio ipsum quo doloremque. Dolore, sit reiciendis.</p>
+        <p>This is the content of <span>blog post</span> . Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad nulla, nesciunt quibusdam similique fugiat, facilis explicabo dolor officiis reiciendis vero perspiciatis maxime dicta. Optio ipsum quo doloremque. Dolore, sit reiciendis.</p>
     </article>
 
 
-    <article>
+    <article class="hidden">
         <h2>My 2nd Blog Post</h2>
         <p>This is the content of my blog post. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad nulla, nesciunt quibusdam similique fugiat, facilis explicabo dolor officiis reiciendis vero perspiciatis maxime dicta. Optio ipsum quo doloremque. Dolore, sit reiciendis.</p>
     </article>
@@ -21,7 +29,7 @@
 
     <article>
         <h2>My 3rd Blog Post</h2>
-        <p>This is the content of my blog post. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad nulla, nesciunt quibusdam similique fugiat, facilis explicabo dolor officiis reiciendis vero perspiciatis maxime dicta. Optio ipsum quo doloremque. Dolore, sit reiciendis.</p>
+        <p>This is the content of my blog post. <span>ipsum</span> , dolor sit amet consectetur adipisicing elit. Ad nulla, nesciunt quibusdam similique fugiat, facilis explicabo dolor officiis reiciendis vero perspiciatis maxime dicta. Optio ipsum quo doloremque. Dolore, sit reiciendis.</p>
     </article>
 
 
@@ -29,5 +37,21 @@
         <h2>My 4th Blog Post</h2>
         <p>This is the content of my blog post. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad nulla, nesciunt quibusdam similique fugiat, facilis explicabo dolor officiis reiciendis vero perspiciatis maxime dicta. Optio ipsum quo doloremque. Dolore, sit reiciendis.</p>
     </article>
+
+
+    <div>
+        <H2>What I learned</H2>
+        <p>
+            <ol>
+                <li><link rel="stylesheet" href=""></li>
+                <li>display:none </li>
+                <li>visibility:hidden  </li>
+                <li>span tag for specific part color,</li>
+                <li>in span tag we can use display with various crriteria like block.</li>
+                <li>we can use border in display block and hight and width. when using the block.</li>
+                <li>when use in line then it will not word the height & width.to use it we have to use display:inline-block.</li>
+            </ol>
+        </p>
+    </div>
 </body>
 </html>
